@@ -1,0 +1,21 @@
+{
+    "name": "chameleon",
+    "displayName": "Chameleon",
+    "description": "A VSCode theme for designer geekz 🦎",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chameleon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chameleon-color-theme.json"
+            }
+        ]
+    }
+}
