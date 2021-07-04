@@ -3,13 +3,39 @@
   "displayName": "Chameleon",
   "description": "A VSCode theme for designer geeks 🦎",
   "version": "0.0.1",
+  "author": {
+    "name": "Ashkan Ashtiani",
+    "email": "ashcan@3dln.com",
+    "url": "https://www.3dln.com"
+  },
   "publisher": "3dln",
+  "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
     "vscode": "^1.57.0"
+  },
+  "galleryBanner": {
+    "color": "#353535",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3dln/chameleon-vscode-theme"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Night Theme",
+    "chameleon",
+    "3dln",
+    "Accessible Theme"
+  ],
+  "icon": "owl-icon.png",
   "contributes": {
     "themes": [
       {
