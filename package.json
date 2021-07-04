@@ -11,7 +11,7 @@
   "publisher": "3dln",
   "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
-    "vscode": "^1.57.0"
+    "vscode": "^1.36.0"
   },
   "galleryBanner": {
     "color": "#353535",
@@ -35,7 +35,7 @@
     "3dln",
     "Accessible Theme"
   ],
-  "icon": "owl-icon.png",
+  "icon": "3dln-icon.png",
   "contributes": {
     "themes": [
       {

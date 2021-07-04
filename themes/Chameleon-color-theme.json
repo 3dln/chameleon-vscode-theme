@@ -584,6 +584,7 @@
       "scope": [
         "variable.other.readwrite.ts",
         "punctuation.decorator.ts",
+        "entity.name.function.ts",
         "meta.decorator.ts"
       ],
       "settings": {
