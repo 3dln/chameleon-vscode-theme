@@ -1,7 +1,7 @@
 {
   "name": "chameleon",
   "displayName": "Chameleon",
-  "description": "A VSCode theme for designer geeks 🦎",
+  "description": "A VSCode theme for design geeks 🦎",
   "version": "0.1.0",
   "author": {
     "name": "Ashkan Ashtiani",
@@ -35,7 +35,7 @@
     "3dln",
     "Accessible Theme"
   ],
-  "icon": "3dln-icon.png",
+  "icon": "chameleon-icon.png",
   "contributes": {
     "themes": [
       {
