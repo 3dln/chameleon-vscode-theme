@@ -558,8 +558,24 @@
       }
     },
     {
+      "name": "Typescript[React] Import alias",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "meta.block.ts",
+        "meta.import.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#d2dfeb"
+      }
+    },
+    {
       "name": "Typescript[React] Meta Imports",
-      "scope": ["string.quoted.single.ts", "meta.import.ts"],
+      "scope": [
+        "string.quoted.single.ts",
+        "string.quoted.double.ts",
+        "meta.import.ts"
+      ],
       "settings": {
         "foreground": "#fffd93"
       }
@@ -576,26 +592,14 @@
       "name": "Typescript[React] Enum members",
       "scope": ["variable.other.enummember.ts", "meta.enum.declaration.ts"],
       "settings": {
-        "foreground": "#a8e8fc"
+        "foreground": "#d2dfeb"
       }
     },
     {
       "name": "Typescript[React] Decorators",
-      "scope": [
-        "variable.other.readwrite.ts",
-        "punctuation.decorator.ts",
-        "entity.name.function.ts",
-        "meta.decorator.ts"
-      ],
+      "scope": ["variable.other.readwrite.ts", "meta.decorator.ts"],
       "settings": {
         "foreground": "#ffe600"
-      }
-    },
-    {
-      "name": "Typescript[React] variables",
-      "scope": ["variable.other.readwrite.ts", "meta.block.ts"],
-      "settings": {
-        "foreground": "#2aaf87"
       }
     },
     {
@@ -611,6 +615,27 @@
       "settings": {
         "foreground": "#74c08d",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Typescript[React] Object property",
+      "scope": ["variable.other.property.ts", "meta.block.ts", "meta.arrow.ts"],
+      "settings": {
+        "foreground": "#ff9148"
+      }
+    },
+    {
+      "name": "Typescript[React] Class super",
+      "scope": [
+        "variable.language.super.ts",
+        "meta.function-call.ts",
+        "meta.block.ts",
+        "meta.method.declaration.ts",
+        "meta.class.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#48fff0"
       }
     }
   ]

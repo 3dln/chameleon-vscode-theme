@@ -17,6 +17,7 @@ interface IHuman extends IHumanBase {
 }
 abstract class Human {
   private say = (anything: string): void => {
+    console.log("Everything is possible here");
     console.log(anything);
   };
 }
