@@ -7,6 +7,9 @@ enum Gender {
   Trans = 3,
 }
 
+const myName = "Ashkan"
+let myEmail = "ashcan@3dln.com"
+
 interface IHumanBase {
   name: string;
 }
@@ -27,19 +30,23 @@ abstract class Human {
 export class Designer extends Human implements IHuman {
 
   @PrimaryGeneratedColumn()
-  id: number;
+  id: number
 
   @Column()
-  name: string;
+  name: string
+
+  @Column
+  email: string
 
   @Column()
-  gender: Gender;
+  gender: Gender
 
-  constructor(name: string, gender: Gender) {
-    super();
-    this.name = name;
-    this.gender = gender;
+  constructor(name: string, email: string, gender: Gender = Gender.FEMALE) {
+    super()
+    this.name = name
+    this.gender = gender
   }
 }
 
 
+let designer = new Designer(myName, myEmail, Gender.MALE)

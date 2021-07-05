@@ -559,8 +559,7 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "#00a6cf",
-        "fontStyle": "italic"
+        "foreground": "#00a6cf"
       }
     },
     {
@@ -588,8 +587,7 @@
       "name": "Typescript[React] Enum",
       "scope": ["storage.type.enum.ts", "meta.enum.declaration.ts"],
       "settings": {
-        "foreground": "#ed93ff",
-        "fontStyle": "italic"
+        "foreground": "#ed93ff"
       }
     },
     {
@@ -617,8 +615,7 @@
       "name": "Typescript[React] modifiers",
       "scope": ["storage.modifier.ts", "meta.class.ts"],
       "settings": {
-        "foreground": "#31B29A",
-        "fontStyle": "italic"
+        "foreground": "#31B29A"
       }
     },
     {
