@@ -637,6 +637,17 @@
       "settings": {
         "foreground": "#48fff0"
       }
+    },
+    {
+      "name": "Typescript[React] Constant Numeric",
+      "scope": [
+        "constant.numeric.decimal.ts",
+        "meta.enum.declaration.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#a3a3a3"
+      }
     }
   ]
 }
