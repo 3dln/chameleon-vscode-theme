@@ -687,8 +687,7 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "#FF5370",
-        "fontStyle": "italic"
+        "foreground": "#FF5370"
       }
     }
   ]
