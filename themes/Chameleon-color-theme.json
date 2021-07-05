@@ -601,7 +601,7 @@
       "name": "Typescript[React] Decorators",
       "scope": ["variable.other.readwrite.ts", "meta.decorator.ts"],
       "settings": {
-        "foreground": "#FEE501"
+        "foreground": "#9bff82"
       }
     },
     {
@@ -675,6 +675,20 @@
       "scope": ["string.quoted.double.ts", "string.quoted.single.ts"],
       "settings": {
         "foreground": "#cedaac"
+      }
+    },
+    {
+      "name": "Typescript[React] Variables",
+      "scope": [
+        "variable.other.constant.ts",
+        "meta.definition.variable.ts",
+        "meta.var-single-variable.expr.ts",
+        "meta.var.expr.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#FF5370",
+        "fontStyle": "italic"
       }
     }
   ]
