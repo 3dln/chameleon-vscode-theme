@@ -550,6 +550,20 @@
     },
     // Typescript
     {
+      "name": "Typescript[React] Variables",
+      "scope": [
+        "variable.object.property.ts",
+        "meta.definition.property.ts",
+        "meta.field.declaration.ts",
+        "meta.interface.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#00a6cf",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Typescript[React] Interface",
       "scope": ["storage.type.interface.ts"],
       "settings": {
