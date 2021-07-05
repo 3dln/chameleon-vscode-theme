@@ -589,7 +589,7 @@
       "name": "Typescript[React] Decorators",
       "scope": ["variable.other.readwrite.ts", "meta.decorator.ts"],
       "settings": {
-        "foreground": "#ffe600"
+        "foreground": "#FEE501"
       }
     },
     {
@@ -663,7 +663,7 @@
       "name": "Typescript[React] Inside quotes",
       "scope": ["string.quoted.double.ts", "string.quoted.single.ts"],
       "settings": {
-        "foreground": "#acc1da"
+        "foreground": "#cedaac"
       }
     }
   ]
