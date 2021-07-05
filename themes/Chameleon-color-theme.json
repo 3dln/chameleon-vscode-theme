@@ -569,17 +569,7 @@
         "foreground": "#d2dfeb"
       }
     },
-    {
-      "name": "Typescript[React] Meta Imports",
-      "scope": [
-        "string.quoted.single.ts",
-        "string.quoted.double.ts",
-        "meta.import.ts"
-      ],
-      "settings": {
-        "foreground": "#fffd93"
-      }
-    },
+
     {
       "name": "Typescript[React] Enum",
       "scope": ["storage.type.enum.ts", "meta.enum.declaration.ts"],
@@ -606,14 +596,14 @@
       "name": "Typescript[React] parameters",
       "scope": ["variable.parameter.ts", "meta.parameters.ts"],
       "settings": {
-        "foreground": "#2aaf87"
+        "foreground": "#88BD24"
       }
     },
     {
       "name": "Typescript[React] modifiers",
       "scope": ["storage.modifier.ts", "meta.class.ts"],
       "settings": {
-        "foreground": "#74c08d",
+        "foreground": "#31B29A",
         "fontStyle": "italic"
       }
     },
@@ -621,7 +611,7 @@
       "name": "Typescript[React] Object property",
       "scope": ["variable.other.property.ts", "meta.block.ts", "meta.arrow.ts"],
       "settings": {
-        "foreground": "#ff9148"
+        "foreground": "#E0DD39"
       }
     },
     {
@@ -635,18 +625,45 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "#48fff0"
+        "foreground": "#F4B129"
       }
     },
     {
-      "name": "Typescript[React] Constant Numeric",
+      "name": "Typescript[React] Constant Numerals",
       "scope": [
         "constant.numeric.decimal.ts",
         "meta.enum.declaration.ts",
         "source.ts"
       ],
       "settings": {
-        "foreground": "#a3a3a3"
+        "foreground": "#EA5825"
+      }
+    },
+    {
+      "name": "Typescript[React] Parentheses",
+      "scope": ["meta.brace.round.ts", "source.ts"],
+      "settings": {
+        "foreground": "#E1738D"
+      }
+    },
+    {
+      "name": "Typescript[React] Parentheses",
+      "scope": [
+        "variable.other.object.ts",
+        "meta.function-call.ts",
+        "meta.block.ts",
+        "meta.arrow.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#D962A1"
+      }
+    },
+    {
+      "name": "Typescript[React] Inside quotes",
+      "scope": ["string.quoted.double.ts", "string.quoted.single.ts"],
+      "settings": {
+        "foreground": "#acc1da"
       }
     }
   ]
