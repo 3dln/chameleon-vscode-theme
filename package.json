@@ -31,9 +31,10 @@
     "Theme",
     "Dark Theme",
     "Night Theme",
-    "chameleon",
+    "Chameleon",
     "3dln",
-    "Accessible Theme"
+    "Accessible Theme",
+    "Typescript"
   ],
   "icon": "chameleon-logo.png",
   "contributes": {

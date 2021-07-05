@@ -17,4 +17,5 @@ Currently the theme focus is on typescript in dark mode.
 
 1. More typescript specific colors
 2. Light theme
-3. Support for Python
+3. JSON specific colors
+4. Python specific colors

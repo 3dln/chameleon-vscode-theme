@@ -1,5 +1,4 @@
-import { randomUUID } from 'crypto';
-import { Entity } from 'TypeORM'
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm'
 
 enum Gender {
   FEMALE = 0,
@@ -24,16 +23,22 @@ abstract class Human {
 
 // Yes we actually can use decorators in typescript
 // TODO: Enable experimentalDecorators in tsconfig to remove ts warning
-@Entity
+@Entity()
 export class Designer extends Human implements IHuman {
-  id: string;
+
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
   name: string;
+
+  @Column()
   gender: Gender;
+
   constructor(name: string, gender: Gender) {
     super();
     this.name = name;
     this.gender = gender;
-    this.id = randomUUID()
   }
 }
 
