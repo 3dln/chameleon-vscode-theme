@@ -1,6 +1,7 @@
 # 3DLN 🦎
 
-A Visual Studio Code theme for designer geeks.
+A Visual Studio Code theme for design geeks.
+Currently the theme only supports typescript in dark mode.
 
 ## Installation
 
@@ -11,3 +12,9 @@ A Visual Studio Code theme for designer geeks.
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 7. From the menu bar click: Code > Preferences > Color Theme > **Chameleon**
+
+## Roadmap
+
+1. More typescript specific colors
+2. Light theme
+3. Support for Python

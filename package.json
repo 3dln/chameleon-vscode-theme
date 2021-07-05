@@ -35,7 +35,7 @@
     "3dln",
     "Accessible Theme"
   ],
-  "icon": "chameleon-icon.png",
+  "icon": "chameleon-logo.png",
   "contributes": {
     "themes": [
       {
