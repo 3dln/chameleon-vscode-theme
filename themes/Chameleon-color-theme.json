@@ -689,6 +689,13 @@
       "settings": {
         "foreground": "#FF5370"
       }
+    },
+    {
+      "name": "Typescript[React] Variables",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#7bff7b"
+      }
     }
   ]
 }
