@@ -691,10 +691,25 @@
       }
     },
     {
-      "name": "Typescript[React] Variables",
+      "name": "Typescript[React] Tags",
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#7bff7b"
+      }
+    },
+    {
+      "name": "Typescript[React] Object keys",
+      "scope": [
+        "meta.object-literal.key.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.var.expr.ts",
+        "meta.block.ts",
+        "meta.function.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#00acfc"
       }
     }
   ]
