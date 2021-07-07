@@ -10,17 +10,23 @@ enum Gender {
 const myName = "Ashkan"
 let myEmail = "ashcan@3dln.com"
 
+let myHobbies = {
+  reading: "books",
+  watching: "movies, series",
+  programming: "python, javascript"
+}
+
 interface IHumanBase {
-  name: string;
+  name: string
 }
 
 interface IHuman extends IHumanBase {
-  gender: Gender;
+  gender: Gender
 }
 abstract class Human {
   private say = (anything: string): void => {
-    console.log("Everything is possible here");
-    console.log(anything);
+    console.log("Everything is possible here")
+    console.log(anything)
   };
 }
 
